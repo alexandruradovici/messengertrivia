@@ -10,18 +10,18 @@ module.exports = function(grunt) {
         {
           node: true  
         },
-        files: ['*.js']
+        files: ['source/**/*.js']
     },
     watch:
     {
-        files: '*.js',
+        files: 'source/**/*.js',
         tasks: ['default']
     },
     nodemon:
     {
         dev:
         {
-            script: 'index.js'
+            script: 'source/index.js'
         }
     }
   });
