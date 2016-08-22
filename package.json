@@ -1,0 +1,18 @@
+{
+  "name": "mesenger",
+  "version": "1.0.0",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "chuck-norris-api": "^1.0.8",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "redis": "^2.6.2",
+    "request": "^2.74.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
