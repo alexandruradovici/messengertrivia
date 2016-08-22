@@ -7,6 +7,7 @@ var morgan = require ('morgan');
 require ('./bots/log.js');
 require ('./bots/chuck.js');
 require ('./bots/echo.js');
+require ('./bots/trivia/trivia.js');
 
 server.use (morgan ('tiny')); // display request logs
 
