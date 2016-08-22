@@ -1,6 +1,6 @@
 "use strict";
 
-var bus = require("./bus.js");
+var bus = require("./../bus.js");
 var cn = require('chuck-norris-api');
 
 bus.on ('message', function (type, id, message)

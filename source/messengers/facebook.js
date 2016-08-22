@@ -8,13 +8,11 @@ var express = require("express");
 var router = express.Router ();
 var bodyparser = require ('body-parser');
 
-var bus = require ('./bus.js');
+var bus = require ('./../bus.js');
 
 // functions for using the messenger messages
 // var messenger = require ('./messenger.js');
 var request = require ('request');
-
-var trivia = require ('./trivia.js');
 
 router.use (bodyparser.json ()); // read body for POST and PUT as JSON
 
